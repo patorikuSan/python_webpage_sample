@@ -1,0 +1,211 @@
+*{
+	outline: 0;
+}
+.wrapper{
+	background-color: rgb(45, 79, 115);
+	width: 970px;
+	margin: 0 auto;
+}
+	.banner{
+		width: 960px;
+		min-height: 180px;
+		background-color: rgb(45, 79, 115);
+	}
+		.banner img{
+			width: 350px;
+			min-height: 164px;
+			margin-top: 5px;
+			margin-left: 10px;
+		}
+		.banner .search_area{
+			width: 300px;
+			min-height: 164px;
+			background-color: rgb(45, 79, 115);
+			margin-top: 5px;
+			margin-left: 290px;
+
+		}
+		.banner .search_area p{
+			margin-left: 100px;
+			font-size: 12px;
+			font-family: Arial, Helvetica, sans-serif;
+			color: mintcream;
+
+		}
+		.banner .search_area p span{
+			color: #f4f460;
+			text-decoration: underline;
+
+		}
+		.banner .search_area p .large{
+		border-left: 1px solid black;
+		padding-left: 5px;
+
+		}
+		.banner .brand_logo, .search_area{
+			display: inline-block;
+			vertical-align: top;
+		}
+		.banner .search_area .shade{
+			padding: 25px 15px 25px 45px;
+			background-color: #3e3b3b;
+			border-radius: 5px;
+			border-right: 3px solid black;
+			border-bottom: 3px solid black;
+		}
+		input[type="text"]{
+			text-align: center;
+		}
+		button{
+			background-color: midnightblue;
+			color: white;
+		}
+	.menu_bar{
+		width: 800px;
+		min-height: 30px;
+		background-color: rgb(83, 127, 169);
+		padding-top: 20px;
+		margin-left: 120px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border-radius: 5px;
+		border-right: 3px solid black;
+		border-bottom: 3px solid black;
+	}
+		.menu_bar > a{
+			margin-left: 40px;
+			color: white;
+			font-size: 20px;
+			font-family: Arial, Helvetica, sans-serif;
+			text-decoration: none;
+		}
+	.main_body{
+		background-color: rgb(45, 79, 115);
+		width: 920px;
+		min-height: 320px;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+		.nav{
+			background-color: rgb(45, 79, 115);
+			width: 240px;
+			min-height: 280px;
+			margin-left: 50px;
+		}
+			.nav a{
+				display: block;
+				text-align: center;
+				padding-top: 15px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 17px;
+				color: white;
+
+			}
+	.main_content{
+		background-color: rgb(45, 79, 115);
+		width: 610px;
+		min-height: 280px;
+		margin-left: 300px;
+		margin-top: -294px;
+		color: white;
+	}
+		.main_body .main_content p{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			color: white;
+		}
+		.main_body .main_content ul{
+			text-align: center;
+			list-style: none;
+			font-style: italic;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 22px;
+			padding: 0;
+			margin: 0 auto;
+			font-weight: normal;
+		}
+		.main_body .main_content ul li{
+			padding-top: 10px;
+			color: hsl(48, 71%, 59%);
+			
+		}
+		.main_body h4{
+			margin-top: 0;
+			text-align: center;
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: lighter;
+			font-size: 20px;
+			padding-top: 10px;
+		}
+	.card_box{
+		width: 850px;
+		min-height: 210px;
+		background-color: white;
+		margin: 0 auto;
+		padding-left: 120px;
+		border-top: 3px solid black;
+
+	}
+		.card_box .card{
+			width: 340px;
+			min-height: 200px;
+			display: inline-block;
+			vertical-align: bottom;
+			margin-left: 40px;
+			padding-top: 10px;
+			background-color: white;
+			position: relative;
+			
+		}
+			.card_box .card h3{
+				border-top: 5px solid lightskyblue;
+				margin: 0;
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 15px;
+				font-weight: lighter;
+			}
+			.card_box .card p{
+				margin: 0;
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				padding: 10px 10px 0;
+				width: 320px;
+			}
+			.card_box .card ul{
+				margin: 0;
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				padding-top: 5px;
+			}
+			.card_box .card ul li{
+				padding-top: 5px;
+				margin-left: 10px;
+				color: lightskyblue;
+			}
+			.card_box .card span{
+				color: lightskyblue;
+			}
+	.footer{
+		background-color: rgb(58, 103, 148);
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		text-align: center;
+	}
+		.footer h5{
+			display: inline-block;
+			padding-left: 40px;
+			font-weight: lighter;
+			font-size: 17px;
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+		.footer h6{
+			font-size: 10px;
+			padding-bottom: 10px;
+			margin-top: 10px;
+		}
